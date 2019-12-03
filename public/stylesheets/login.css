@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Candal', sans-serif;
+  background: #11B080;
+  color: #333333;
+}
+
+div {
+  display: block;
+}
+
+h2 {
+  padding: 10px;
+  font-family: 'Candal', sans-serif;
+  font-size: 2em;
+  text-align: center;
+
+}
+
+#container-home {
+  width: 800px;
+  min-height: 300px;
+  background: #ffffff;
+  margin: auto;
+  padding: 40px 50px;
+}
+
+#container-form {
+  color: white;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  padding: 20px;
+  width: 400px;
+  transform: translate(-50%,-50%);
+  background: #85EBCC;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#form {
+  width: 90%;
+}
+
+.input_wrap {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  font-family: 'Candal', sans-serif;
+  font-size: 14px;
+  color: #4F545F;
+  margin-bottom: 10px;
+}
+
+.input_wrap_sel {
+    border-bottom: 2px solid #333333;
+}
+
+.password{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.titulo{
+  width: 100%;
+  left: 100px;
+  margin-bottom: 20px;
+}
+
+
+
+input::placeholder {
+  color: #adadad;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+
+  height: 30px;
+  font-family: 'Candal', sans-serif;
+  font-size: 14px;
+  color: #4F545F;
+}
+
+#container-button {
+  width: 300px;
+}
+
+button {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  background: #a64bf4;
+  background: -webkit-linear-gradient(left, #22c397, #084952);;
+  border: none;
+  border-radius: 25px;
+}
+
+button:hover {
+  background: #4F545F;
+}
+
+.sign_up{
+  color:#084952 ;
+}
+
+
+#signup_option {
+  font-size: 13px;
+  text-align: center;
+  margin: 5px 0 0 0;
+}
+
+#container-logout {
+  float: right;
+}

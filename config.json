@@ -1,0 +1,4 @@
+{
+    "connectionString": "mongodb+srv://admin:admin@web-ibpjx.mongodb.net/test?retryWrites=true&w=majority",
+    "secret": "admin"
+}
